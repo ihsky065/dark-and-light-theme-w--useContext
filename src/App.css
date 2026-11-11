@@ -25,3 +25,8 @@ h1 {
     color: #fff;
     background: rgb(23, 32, 4);
 }
+
+.button-dark {
+    background: #222;
+    color: #fff;
+}
