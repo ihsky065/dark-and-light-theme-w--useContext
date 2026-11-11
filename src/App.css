@@ -20,3 +20,8 @@ h1 {
     color: #222;
     background: #fff;
 }
+
+.panel-dark {
+    color: #fff;
+    background: rgb(23, 32, 4);
+}
