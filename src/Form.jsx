@@ -16,3 +16,12 @@ function Panel({title, children, theme}) {
         </section>
     );
 }
+
+function Button({children, theme}) {
+    const className = 'button-' + theme;
+    return(
+        <button className={className}>
+            {children}
+        </button>
+    )
+}
