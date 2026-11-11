@@ -30,3 +30,8 @@ h1 {
     background: #222;
     color: #fff;
 }
+
+.button-light {
+    background: #fff;
+    color: #222;
+}
