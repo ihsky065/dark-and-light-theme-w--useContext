@@ -7,8 +7,8 @@ export default function App() {
   const [theme, setTheme] = useState('light');
 
   return (
-    <>
-      <Form theme={theme}/>
+    <ThemeContext.Provider value={theme}>
+      <Form/>
         <label>
           <input
             type="checkbox" 
@@ -19,6 +19,6 @@ export default function App() {
           />
           Use dark mode
         </label>
-    </>
+    </ThemeContext.Provider>
   )
 }
