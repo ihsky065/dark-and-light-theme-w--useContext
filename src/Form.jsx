@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import ThemeContext from './ThemeContext';
 
-export default function Form ({theme}) {
+export default function Form () {
     return(
-        <Panel title='Welcome' theme={theme}>
-            <Button theme={theme}>Sign Up</Button>
-            <Button theme={theme}>Login</Button>
+        <Panel title='Welcome'>
+            <Button>Sign Up</Button>
+            <Button>Login</Button>
         </Panel>
     );
 }
