@@ -18,7 +18,7 @@ export default function Form () {
 }
 
 function Panel({title, children}) {
-    const theme = useContext(ThemeContext);
+    const theme = useContext(ThemeContext).theme;
     const className = 'panel-' + theme;
     return(
         <section className={className}>
@@ -29,7 +29,7 @@ function Panel({title, children}) {
 }
 
 function Button({children}) {
-    const theme = useContext(ThemeContext);
+    const theme = useContext(ThemeContext).theme;
     const className = 'button-' + theme;
     return(
         <button className={className}>
