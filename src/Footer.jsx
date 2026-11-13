@@ -6,4 +6,8 @@ export default function Footer () {
 
     if (theme == 'dark') return 'Have a great time with the dark theme';
     else return 'Enjoy the light theme';
+
+    return(
+        <p>{theme}</p>
+    )
 }
