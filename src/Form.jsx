@@ -2,6 +2,10 @@ import React, { useContext } from 'react';
 import ThemeContext from './ThemeContext';
 
 export default function Form () {
+    const currentTheme = useContext(ThemeContext).theme;
+    const setTheme = useContext(ThemeContext).setTheme;
+    const updatedTheme = currentTheme === 'light' ? 'dark' : 'light';
+
     return(
         <Panel title='Welcome'>
             <Button>Sign Up</Button>
