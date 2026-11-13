@@ -2,6 +2,7 @@ import { useState } from 'react';
 import ThemeContext from './ThemeContext'
 import './App.css';
 import Form from './Form'
+import Footer from './Footer'
 
 export default function App() {
   const [theme, setTheme] = useState('light');
@@ -19,6 +20,7 @@ export default function App() {
           />
           Use dark mode
         </label>
+        <br />Thank you for visiting! <Footer/>
     </ThemeContext.Provider>
   )
 }
