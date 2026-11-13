@@ -10,6 +10,9 @@ export default function Form () {
         <Panel title='Welcome'>
             <Button>Sign Up</Button>
             <Button>Login</Button>
+            <button onClick = {() => setTheme(updatedTheme)}>
+                Toggle Theme
+            </button>
         </Panel>
     );
 }
