@@ -10,4 +10,16 @@ export default function Footer () {
     return(
         <p>{theme}</p>
     )
+
+    // The lesson's answer
+    // const lightThemeText = 'Thank you for visiting! Enjoy the light theme';
+    // const darkThemeText = 'Thank you for visiting! Have a great time with the dark theme';
+
+    // const text = theme === 'light' ? lightThemeText : darkThemeText;
+
+    // return(
+    //     <div>
+    //         {text}
+    //     </div>
+    // )
 }
